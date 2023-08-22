@@ -1,13 +1,50 @@
-#header {
-    text-align: center;
-    background-color: dimgrey;
-    color: black;
-    outline-color: black;
-    padding: 1%;
-    font-size: 100%;
+body {
+    margin: 0px;
+    background: rgb(151, 216, 245);
 }
-#header p {
-    margin: 0px
+button {
+    font-family: 'Cascadia Mono';
+    font-weight: bold;
+    font-size: 75%;
+    background-color: rgb(72, 118, 238);
+    color: rebeccapurple;
+    margin-top: 10%;
+    width: 30%;
+    height: 20%;
+    border: 3px solid blue;
+    border-radius: 3%;
+}
+#main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(72, 118, 238);
+}
+#sudoku {
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-75%, -50%);
+}
+#spotify {
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-25%, -50%);
+}
+.box {
+    font-size: 100%;
+    border-radius: 2%;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    background-color: rgb(36, 59, 238);
+    color: rgb(25, 8, 168);
+}
+#main p {
+    position: relative;
+    bottom: 2%;
 }
 #fancyText {
     font-size: 120%;
