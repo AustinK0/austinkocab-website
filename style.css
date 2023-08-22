@@ -1,0 +1,16 @@
+#header {
+    text-align: center;
+    background-color: dimgrey;
+    color: black;
+    outline-color: black;
+    padding: 1%;
+    font-size: 100%;
+}
+#header p {
+    margin: 0px
+}
+#fancyText {
+    font-size: 120%;
+    color: white;
+    font-family: 'Cascadia Mono'
+}
